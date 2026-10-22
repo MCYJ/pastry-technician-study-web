@@ -129,7 +129,7 @@ export const copy={
       "필기와 실기 준비 범위 구분"
     ],
     "scopeNote": "최종 콘텐츠는 작성·검수 중입니다. 완성된 문항 수, 전체 기능, 앱 출시 또는 공식 인증을 주장하지 않습니다.",
-    "privacyIntro": "출시 준비 중인 서비스의 예정된 처리 범위와 현재 정적 웹사이트의 처리 정보를 구분해 안내합니다.",
+    "privacyIntro": "앱의 기기 내 학습 데이터 처리와 사용자가 선택하는 외부 전달, 정적 웹사이트의 처리 범위를 안내합니다.",
     "privacySections": [
       [
         "이 웹사이트",
@@ -140,8 +140,20 @@ export const copy={
         "이 사이트는 GitHub Pages에서 호스팅되며 웹 요청은 GitHub 인프라를 거칩니다. 호스팅 제공자의 일반적인 접속 기록 처리까지 없다고 주장하지 않습니다. 아래 GitHub 개인정보 안내를 확인할 수 있습니다."
       ],
       [
-        "앱의 예정 범위",
-        "앱은 기기 중심의 학습을 목표로 준비합니다. 실제 저장·백업·알림·권한 등은 구현과 검증을 마친 최종 배포본에 맞추어 이 문서를 갱신합니다."
+        "기기의 학습 데이터",
+        "학습 진도, 답변·연습 이력, 저장 문항, 메모와 설정은 기기에 보관합니다. 문항 오류 신고도 기기 내 대기 목록에 저장되며 자동 전송되지 않습니다. RushLabs 계정이나 학습 데이터를 개발자 서버에 동기화하는 기능은 없습니다."
+      ],
+      [
+        "직접 선택하는 백업·가져오기",
+        "사용자가 내보내기를 선택하면 학습 기록·메모·신고 등을 포함한 JSON 파일을 만들고 운영체제 공유 화면을 엽니다. 가져오기는 사용자가 문서 선택 화면에서 고른 파일을 읽습니다. 앱이 개발자 서버나 클라우드로 자동 업로드하지 않습니다. 파일을 다른 앱·메일·클라우드에 전달하면 해당 서비스의 정책이 적용됩니다. 내보낸 파일과 운영체제 백업은 별도로 관리·삭제하세요."
+      ],
+      [
+        "선택하는 로컬 알림",
+        "학습 알림과 잠금화면 문제 본문 표시는 기본적으로 꺼져 있습니다. 사용자가 알림을 켜면 기기 권한과 설정에 따라 기기에서 알림을 예약합니다. 문제 본문도 별도로 켠 경우에만 알림에 표시됩니다. 원격 푸시 서버에 등록하거나 학습 데이터를 보내지 않습니다."
+      ],
+      [
+        "스토어 구매와 로컬 자료 삭제",
+        "앱 구매·결제·환불과 구매 이력은 해당 스토어가 처리합니다. RushLabs가 카드 정보를 입력받는 결제 폼은 없습니다. 기기에서 앱 데이터를 지우거나 앱을 삭제하면 로컬 학습 자료가 제거될 수 있으며, 내보낸 파일과 운영체제 백업은 별도로 관리해야 합니다."
       ],
       [
         "문의 이메일",
@@ -324,7 +336,7 @@ export const copy={
       "Separate written and practical preparation"
     ],
     "scopeNote": "Final content remains in authoring and review. We do not claim a completed question count, full features, app release or official certification.",
-    "privacyIntro": "We distinguish the planned service from the current static website.",
+    "privacyIntro": "This notice explains on-device learning data, transfers you choose, and data handling by this static website.",
     "privacySections": [
       [
         "This website",
@@ -335,8 +347,20 @@ export const copy={
         "This website is hosted on GitHub Pages, and website requests pass through GitHub infrastructure. We do not claim that the hosting provider keeps no ordinary request records. Its privacy information is linked below."
       ],
       [
-        "Planned app",
-        "The app is intended for device-centred learning. This notice will be updated to reflect the verified release version, including any storage, backup, notification and permission behaviour."
+        "Learning data on your device",
+        "Learning progress, answer and practice history, saved questions, notes and settings stay on your device. Question-error reports are also saved in a local pending list and are not sent automatically. The app has no RushLabs account or synchronization of study data to a developer-operated server."
+      ],
+      [
+        "Backups and imports you choose",
+        "When you choose export, the app creates a JSON file containing learning records, notes and reports and opens the operating-system share sheet. Import reads a file you choose in the document picker. The app does not upload it automatically to a developer server or cloud. If you share it with another app, email or cloud service, that service’s policy applies. Manage and delete exported files and operating-system backups separately."
+      ],
+      [
+        "Optional local notifications",
+        "Study notifications and question text on the lock screen are off by default. If you enable notifications, the app schedules them on the device subject to permission and settings. Question text appears only if you separately enable it. The app does not register with a remote push server or send learning data for notifications."
+      ],
+      [
+        "Store purchases and local data deletion",
+        "The relevant store handles app purchases, payments, refunds and purchase history. RushLabs has no form that collects card details. Clearing app data or removing the app on your device may remove local learning records; exported files and operating-system backups must be managed separately."
       ],
       [
         "Email enquiries",
